@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Sundial | A dashboard of fun and useful widgets</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-        Sundial
+        <div class="stack"> 
+            <div id="main">
+                <div id="header">
+                    <img src="assets/app-icon.png" alt="Sundial Icon" width="64">
+                    <h2>Sundial</h2>
+                    <div class="spacer"></div> 
+                    <a href="#">Policy</a>
+                </div>
+                <div id="hero">
+                    <div class="title">
+                        <h1>Your personal dashboard of fun and useful widgets</h1>
+                        <a class="cta" href="#">Download</a>
+                    </div>
+                    <img id="hero-phone" src="assets/hero-phone.png" alt="Phone with Sundial App" width="500">
+                </div>
+            </div>
+            <div id="weather"></div>
+            <div id="suntime"></div>
+            <div id="pictures"></div>
+            <div id="traffic"></div>
+            <div id="footer"></div>
+        </div>
     </body>
 </html>
