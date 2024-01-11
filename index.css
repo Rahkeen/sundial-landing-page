@@ -147,6 +147,10 @@ h1 {
     font-size: 24px;
 }
 
+.supergooey {
+    font-family: 'Unbounded';
+}
+
 @media (max-width: 1000px) {
     h1 {
         font-size: 36px;
