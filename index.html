@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Sundial | A dashboard of fun and useful widgets</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="index.css">
-    </head>
-    <body>
-        <div class="stack"> 
-            <div id="main">
-                <div id="header">
-                    <img src="assets/app-icon.png" alt="Sundial Icon" width="64">
-                    <h2>Sundial</h2>
-                    <div class="spacer"></div> 
-                    <a href="#">Policy</a>
-                </div>
-                <div id="hero">
-                    <div class="title">
-                        <h1>Your personal dashboard of fun and useful widgets</h1>
-                        <a class="cta" href="#">Download</a>
-                    </div>
-                    <img id="hero-phone" src="assets/hero-phone.png" alt="Phone with Sundial App" width="500">
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sundial | A dashboard of fun and useful widgets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div id="stack">
+        <div id="main">
+            <div id="header">
+                <img src="assets/app-icon.png" alt="Sundial Icon" width="64">
+                <h2>Sundial</h2>
+                <div class="spacer"></div>
+                <a href="#">Policy</a>
             </div>
-            <div id="weather"></div>
-            <div id="suntime"></div>
-            <div id="pictures"></div>
-            <div id="traffic"></div>
-            <div id="footer"></div>
+            <div id="hero">
+                <div class="title">
+                    <h1>A personal dashboard of fun and useful widgets</h1>
+                    <a class="cta"
+                        href="https://play.google.com/store/apps/details?id=dev.supergooey.sundial">Download</a>
+                </div>
+                <img id="hero-phone" src="assets/hero-phone.png" alt="Phone with Sundial App" width="600">
+            </div>
         </div>
-    </body>
+        <div id="weather" class="feature">
+            <div class="phone">
+                <img src="assets/weather-widget.png" alt="weather widget">
+            </div>
+            <p>Checking the weather will never be boring with our awesome weather scenes and effects</p>
+        </div>
+        <div id="suntime" class="feature">
+            <p>Catch the sunrise, enjoy the sunset, or just make the most of the daylight</p>
+            <div class="phone">
+                <img src="assets/suntime-widget.png" alt="suntime widget">
+            </div>
+        </div>
+        <div id="pictures" class="feature">
+            <div class="phone">
+                <img src="assets/photo-frame-widget.png" alt="photos widget">
+            </div>
+            <p>Swipe through your favorite photos to remember the good times</p>
+        </div>
+        <div id="traffic" class="feature">
+            <p>Drive to your favorite location at the optimal traffic-avoiding time</p>
+            <div class="phone">
+               <img src="assets/traffic-widget.png" alt="traffic widget"> 
+            </div>
+        </div>
+        <div id="footer">
+           <img src="assets/supergooey-icon.svg" alt="supergooey icon"> 
+           <p>Supergooey</p>
+        </div>
+    </div>
+</body>
+
 </html>
